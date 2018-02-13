@@ -9,6 +9,8 @@ Editamos los siguientes ficheros por lo de github https://github.com/jbs1987/ex2
 ex2-slim-mater/public/index.php substituir por fichero index.php de
 ex2-slim-master/src/routes.php substituir por fichero  routes.php
 
+En el fichero indes.php editar los datos de conexión a la base de datos por los correctos.
+
 Creamos una base de datos y ejecutamos la sentencia del archivo bbdd.txt para obtener la estructura. 
 
 Para realizar las acciones GET, PUT, POST y DELETE podemos utilizar postman. Se puede descargar desde https://www.getpostman.com/
@@ -25,6 +27,8 @@ composer update
 Edit the next files of the ex2-slim-master with the files of this project https://github.com/jbs1987/ex2.git
 ex2-slim-mater/public/index.php substituir por fichero index.php de
 ex2-slim-master/src/routes.php substituir por fichero  routes.php
+
+Edit the information of connection to MySQL in the index.php file.
 
 Create a database and use the sentence of the file bbdd.txt for import the structure
 
