@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `hostings` (
+  `id` int(11) NOT NULL COMMENT 'primary key',
+  `nombre` varchar(255) NOT NULL COMMENT 'hosting name',
+  `cores` int(11) NOT NULL COMMENT 'number of cores',
+  `memoria` int(11) NOT NULL COMMENT 'number of GB for memory assigned',
+  `disco` int(11) NOT NULL COMMENT 'number GB of disk'
+) ENGINE=InnoDB AUTO_INCREMENT=58 DEFAULT CHARSET=latin1;
