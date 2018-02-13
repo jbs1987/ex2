@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `hostings` (
+CREATE TABLE IF NOT EXISTS `hosting` (
   `id` int(11) NOT NULL COMMENT 'primary key',
   `nombre` varchar(255) NOT NULL COMMENT 'hosting name',
   `cores` int(11) NOT NULL COMMENT 'number of cores',
